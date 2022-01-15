@@ -1,6 +1,6 @@
 "use strict";
 
-
+ 
 /** compares two string objects (one for word, one for letters) and returns true if the word can be built with the letters given, else returns false */
 function canConstructWord(word, letters) {
     if (letters.length < word.length) return false ;
